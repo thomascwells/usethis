@@ -7,7 +7,7 @@
 
 [![R-CMD-check](https://github.com/r-lib/usethis/workflows/R-CMD-check/badge.svg)](https://github.com/r-lib/usethis/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/r-lib/usethis/branch/master/graph/badge.svg)](https://app.codecov.io/gh/r-lib/usethis?branch=master)
+coverage](https://codecov.io/gh/r-lib/usethis/branch/main/graph/badge.svg)](https://app.codecov.io/gh/r-lib/usethis?branch=main)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/usethis)](https://CRAN.R-project.org/package=usethis)
 [![Lifecycle:
@@ -60,8 +60,8 @@ library(usethis)
 # Create a new package -------------------------------------------------
 path <- file.path(tempdir(), "mypkg")
 create_package(path)
-#> ✓ Creating '/tmp/RtmpxY5vMB/mypkg/'
-#> ✓ Setting active project to '/private/tmp/RtmpxY5vMB/mypkg'
+#> ✓ Creating '/tmp/Rtmp5NV8qO/mypkg/'
+#> ✓ Setting active project to '/private/tmp/Rtmp5NV8qO/mypkg'
 #> ✓ Creating 'R/'
 #> ✓ Writing 'DESCRIPTION'
 #> Package: mypkg
@@ -79,8 +79,8 @@ create_package(path)
 #> ✓ Setting active project to '<no active project>'
 # only needed since this session isn't interactive
 proj_activate(path)
-#> ✓ Setting active project to '/private/tmp/RtmpxY5vMB/mypkg'
-#> ✓ Changing working directory to '/tmp/RtmpxY5vMB/mypkg/'
+#> ✓ Setting active project to '/private/tmp/Rtmp5NV8qO/mypkg'
+#> ✓ Changing working directory to '/tmp/Rtmp5NV8qO/mypkg/'
 
 # Modify the description ----------------------------------------------
 use_mit_license("My Name")
