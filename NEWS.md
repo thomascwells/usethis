@@ -1,5 +1,3 @@
-# usethis (development version)
-
 # usethis 3.0.0.9002
 
 ## test news update
